@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+}
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.header {
+    padding-top: 1rem;
+    background-color: #1F2937;
+}
+.navbar-items{
+    color: #E5E7EB;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10rem;
+    gap: 12px;
+}
+#logo {
+    margin-left: 8rem;
+    margin-right: auto;
+    font-weight: bold;
+    color: white;
+}
