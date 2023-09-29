@@ -12,7 +12,7 @@ a {
     color: inherit;
 }
 .header {
-    padding-top: 1rem;
+    padding-top: 2rem;
     background-color: #1F2937;
     height: 500px;
 }
@@ -20,13 +20,13 @@ a {
     color: #E5E7EB;
     display: flex;
     align-items: center;
-    margin-right: 10rem;
-    gap: 10px;
+    margin-right: 9rem;
+    gap: 20px;
     justify-content: space-between;
 }
 
 #home-logo {
-    margin-left: 10.5rem;
+    margin-left: 13rem;
     color : white;
     font-weight: bold;
 }
@@ -37,13 +37,15 @@ a {
 }
 .header-content {
     display: flex;
+    flex-wrap: wrap;
+    flex: 1;
 }
 .header-left {
     margin-top: 7rem;
     flex: 1;
     max-width: 400px;
     flex-direction: column;
-    margin-left: 10.5rem;
+    margin-left: 13rem;
     max-width: 300px;
     gap: 10px;
     margin-bottom: 8px;
@@ -67,7 +69,106 @@ a {
     height: 30px;
 }
 img {
+    display: flex;
     max-height: 250px;
     margin-left: 300px;
     padding-top: 100px;
 }
+.information {
+    height: 450px;
+}
+#info-header {
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.container {
+    gap: 40px;
+    display: flex;
+    flex:1;
+    justify-content: center;
+}
+.image{
+    width: 150px;
+    height: 150px;
+    border:#3882F6 solid;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+.text{
+    text-align: center;
+    width: 150px;
+}
+.quote-page {
+    background-color: #E5E7EB;
+    height: 400px;
+}
+.quote-container {
+    padding-top: 9rem;
+    display: flex;
+    justify-content: center;
+}
+.quote{
+    max-width: 650px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+#quoter {
+    font-weight: bold;
+    margin-left: 25rem;
+    font-size: 24px;
+}
+.blue-bar{
+    height: 250px;
+}
+.action-container {
+    margin-top: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.blue-container {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 20px;
+}
+#text-container-left {
+    margin-left: 5rem;
+    color: white;
+    margin-right: auto;
+}
+#blue-button {
+    background-color:#3882F6;
+    border: white solid;
+    color: white;
+    height: 30px;
+    font-weight: bold;
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 9rem;
+}
+.footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    height: 75px;
+}
+
+
+
+
+
+
